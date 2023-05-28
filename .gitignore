@@ -1,0 +1,7 @@
+*.DS_Store
+
+/.vscode
+/ShopsRU/bin
+/ShopsRU/obj
+/ShopsRU.Test/bin
+/ShopsRU.Test/obj

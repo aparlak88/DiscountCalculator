@@ -1,0 +1,262 @@
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Program.cs
+FN:3,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:4,0
+DA:8,0
+DA:10,0
+DA:12,0
+DA:14,0
+DA:18,0
+DA:20,0
+DA:22,0
+DA:24,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Models/BaseModel.cs
+FN:4,System.Guid ShopsRU.Models.BaseModel::get_Id()
+FNDA:15,System.Guid ShopsRU.Models.BaseModel::get_Id()
+DA:5,15
+FN:5,System.DateTime ShopsRU.Models.BaseModel::get_CreatedAt()
+FNDA:15,System.DateTime ShopsRU.Models.BaseModel::get_CreatedAt()
+DA:6,15
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Models/Cart.cs
+FN:4,System.String ShopsRU.Models.Cart::get_UserId()
+FNDA:0,System.String ShopsRU.Models.Cart::get_UserId()
+DA:5,0
+FN:5,System.Collections.Generic.List`1<ShopsRU.Models.CartItem> ShopsRU.Models.Cart::get_Items()
+FNDA:0,System.Collections.Generic.List`1<ShopsRU.Models.CartItem> ShopsRU.Models.Cart::get_Items()
+DA:6,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Models/CartItem.cs
+FN:8,System.Double ShopsRU.Models.CartItem::get_Price()
+FNDA:15,System.Double ShopsRU.Models.CartItem::get_Price()
+DA:9,15
+DA:10,15
+DA:11,15
+FN:12,System.Void ShopsRU.Models.CartItem::set_Price(System.Double)
+FNDA:11,System.Void ShopsRU.Models.CartItem::set_Price(System.Double)
+DA:13,11
+DA:14,11
+DA:15,1
+DA:17,10
+DA:18,10
+BRDA:14,11,0,10
+BRDA:14,11,1,1
+BRDA:14,33,0,1
+BRDA:14,33,1,10
+FN:19,System.Boolean ShopsRU.Models.CartItem::get_IsGrocery()
+FNDA:31,System.Boolean ShopsRU.Models.CartItem::get_IsGrocery()
+DA:20,31
+LF:9
+LH:9
+BRF:4
+BRH:4
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Models/Invoice.cs
+FN:6,ShopsRU.Models.User ShopsRU.Models.Invoice::get_InvoiceUser()
+FNDA:10,ShopsRU.Models.User ShopsRU.Models.Invoice::get_InvoiceUser()
+DA:7,10
+FN:7,System.Double ShopsRU.Models.Invoice::get_TotalAmount()
+FNDA:12,System.Double ShopsRU.Models.Invoice::get_TotalAmount()
+DA:8,12
+FN:8,System.Double ShopsRU.Models.Invoice::get_DiscountableAmount()
+FNDA:15,System.Double ShopsRU.Models.Invoice::get_DiscountableAmount()
+DA:9,15
+FN:12,System.Double ShopsRU.Models.Invoice::get_PayableAmount()
+FNDA:5,System.Double ShopsRU.Models.Invoice::get_PayableAmount()
+DA:13,5
+DA:14,5
+DA:15,5
+DA:16,5
+DA:17,5
+DA:18,5
+FN:22,System.Double ShopsRU.Models.Invoice::get_TotalDiscount()
+FNDA:1,System.Double ShopsRU.Models.Invoice::get_TotalDiscount()
+DA:23,1
+DA:24,1
+DA:25,1
+FN:4,System.Void ShopsRU.Models.Invoice::.ctor(ShopsRU.Models.User)
+FNDA:10,System.Void ShopsRU.Models.Invoice::.ctor(ShopsRU.Models.User)
+DA:5,10
+LF:13
+LH:13
+BRF:0
+BRH:0
+FNF:6
+FNH:6
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Models/User.cs
+FN:4,System.String ShopsRU.Models.User::get_FirstName()
+FNDA:10,System.String ShopsRU.Models.User::get_FirstName()
+DA:5,10
+FN:5,System.String ShopsRU.Models.User::get_LastName()
+FNDA:10,System.String ShopsRU.Models.User::get_LastName()
+DA:6,10
+FN:10,System.Int32 ShopsRU.Models.User::get_UserTypeNo()
+FNDA:5,System.Int32 ShopsRU.Models.User::get_UserTypeNo()
+DA:11,5
+DA:12,5
+DA:13,5
+FN:14,System.Void ShopsRU.Models.User::set_UserTypeNo(System.Int32)
+FNDA:5,System.Void ShopsRU.Models.User::set_UserTypeNo(System.Int32)
+DA:15,5
+DA:16,5
+DA:17,5
+DA:18,5
+DA:19,5
+BRDA:16,31,0,3
+BRDA:16,31,1,2
+FN:23,System.Double ShopsRU.Models.User::get_DiscountMultiplier()
+FNDA:5,System.Double ShopsRU.Models.User::get_DiscountMultiplier()
+DA:24,5
+DA:25,5
+DA:28,2
+DA:30,1
+DA:32,1
+DA:34,1
+DA:36,5
+BRDA:25,13,1,2
+BRDA:25,13,2,1
+BRDA:25,13,3,1
+BRDA:25,13,0,1
+LF:17
+LH:17
+BRF:6
+BRH:6
+FNF:5
+FNH:5
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Logic/CheckoutHelper.cs
+FN:15,ShopsRU.Models.Invoice ShopsRU.Logic.CheckoutHelper::GenerateInvoice(System.Guid,System.Collections.Generic.List`1<ShopsRU.Models.CartItem>)
+FNDA:8,ShopsRU.Models.Invoice ShopsRU.Logic.CheckoutHelper::GenerateInvoice(System.Guid,System.Collections.Generic.List`1<ShopsRU.Models.CartItem>)
+DA:16,8
+DA:17,8
+DA:18,1
+DA:20,7
+DA:21,1
+DA:23,6
+DA:24,1
+DA:26,5
+DA:27,5
+DA:28,5
+DA:29,5
+DA:30,10
+DA:31,15
+DA:32,5
+DA:33,5
+BRDA:17,14,0,1
+BRDA:17,14,1,7
+BRDA:20,33,0,1
+BRDA:20,33,1,6
+BRDA:23,57,0,1
+BRDA:23,57,1,5
+FN:9,System.Void ShopsRU.Logic.CheckoutHelper::.ctor(ShopsRU.Data.IRepository)
+FNDA:9,System.Void ShopsRU.Logic.CheckoutHelper::.ctor(ShopsRU.Data.IRepository)
+DA:10,9
+DA:11,9
+DA:12,9
+DA:13,9
+LF:19
+LH:19
+BRF:6
+BRH:6
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Data/FakeRepository.cs
+FN:53,ShopsRU.Models.User ShopsRU.Data.FakeRepository::GetUserById(System.Guid)
+FNDA:0,ShopsRU.Models.User ShopsRU.Data.FakeRepository::GetUserById(System.Guid)
+DA:54,0
+DA:55,0
+DA:56,0
+FN:13,System.Void ShopsRU.Data.FakeRepository::.ctor()
+FNDA:0,System.Void ShopsRU.Data.FakeRepository::.ctor()
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+LF:41
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:/Users/alparslanparlak/Desktop/Projects/Assesment/ShopsRU/Controllers/HomeController.cs
+FN:20,Microsoft.AspNetCore.Mvc.ActionResult ShopsRU.Controllers.HomeController::GenerateInvoice(ShopsRU.Models.Cart)
+FNDA:0,Microsoft.AspNetCore.Mvc.ActionResult ShopsRU.Controllers.HomeController::GenerateInvoice(ShopsRU.Models.Cart)
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+FN:13,System.Void ShopsRU.Controllers.HomeController::.ctor(ShopsRU.Data.IRepository)
+FNDA:0,System.Void ShopsRU.Controllers.HomeController::.ctor(ShopsRU.Data.IRepository)
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
